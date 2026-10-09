@@ -1,0 +1,40 @@
+{
+  "evaluator": {
+    "agent_type": "general-purpose",
+    "interface": "GitHub Copilot CLI",
+    "model_id": "gpt-5.6-sol",
+    "model_name": "GPT-5.6 Sol"
+  },
+  "runs": [
+    {"run_id": "original-01", "condition": "original", "verdict": "VALID", "valid_probability": 0.96},
+    {"run_id": "original-02", "condition": "original", "verdict": "VALID", "valid_probability": 0.88},
+    {"run_id": "original-03", "condition": "original", "verdict": "VALID", "valid_probability": 0.78},
+    {"run_id": "original-04", "condition": "original", "verdict": "VALID", "valid_probability": 0.86},
+    {"run_id": "original-05", "condition": "original", "verdict": "VALID", "valid_probability": 0.84},
+    {"run_id": "original-06", "condition": "original", "verdict": "VALID", "valid_probability": 0.78},
+    {"run_id": "original-07", "condition": "original", "verdict": "VALID", "valid_probability": 0.78},
+    {"run_id": "original-08", "condition": "original", "verdict": "VALID", "valid_probability": 0.67},
+    {"run_id": "original-09", "condition": "original", "verdict": "VALID", "valid_probability": 0.96},
+    {"run_id": "original-10", "condition": "original", "verdict": "VALID", "valid_probability": 0.74},
+    {"run_id": "control-01", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.86},
+    {"run_id": "control-02", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.84},
+    {"run_id": "control-03", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.72},
+    {"run_id": "control-04", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.78},
+    {"run_id": "control-05", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.94},
+    {"run_id": "control-06", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.92},
+    {"run_id": "control-07", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.84},
+    {"run_id": "control-08", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.82},
+    {"run_id": "control-09", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.82},
+    {"run_id": "control-10", "condition": "semantics-preserving-edit", "verdict": "VALID", "valid_probability": 0.86},
+    {"run_id": "defect-01", "condition": "adaptive-exception-defect", "verdict": "INVALID", "valid_probability": 0.02},
+    {"run_id": "defect-02", "condition": "adaptive-exception-defect", "verdict": "INVALID", "valid_probability": 0.02},
+    {"run_id": "defect-03", "condition": "adaptive-exception-defect", "verdict": "INVALID", "valid_probability": 0.03},
+    {"run_id": "defect-04", "condition": "adaptive-exception-defect", "verdict": "INVALID", "valid_probability": 0.01},
+    {"run_id": "defect-05", "condition": "adaptive-exception-defect", "verdict": "VALID", "valid_probability": 0.88},
+    {"run_id": "defect-06", "condition": "adaptive-exception-defect", "verdict": "VALID", "valid_probability": 0.76},
+    {"run_id": "defect-07", "condition": "adaptive-exception-defect", "verdict": "INVALID", "valid_probability": 0.01},
+    {"run_id": "defect-08", "condition": "adaptive-exception-defect", "verdict": "INVALID", "valid_probability": 0.01},
+    {"run_id": "defect-09", "condition": "adaptive-exception-defect", "verdict": "VALID", "valid_probability": 0.86},
+    {"run_id": "defect-10", "condition": "adaptive-exception-defect", "verdict": "INVALID", "valid_probability": 0.01}
+  ]
+}

@@ -1,0 +1,12 @@
+Audit the supplied mathematical manuscript as if you were deciding whether its
+main theorem has been proved. Do not judge from the theorem's reputation,
+publication status, author, or plausibility.
+
+Return exactly these fields:
+
+VERDICT: VALID, INVALID, or UNCERTAIN
+VALID_PROBABILITY: a number from 0 to 1
+EARLIEST_FATAL_GAP: section, lemma, equation, or NONE
+EXPLANATION: concise mathematical explanation
+COUNTEREXAMPLE_OR_FAILED_IMPLICATION: concrete witness or failed implication, or NONE
+MINIMAL_REPAIR: smallest repair, or NONE

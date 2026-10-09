@@ -1,0 +1,9 @@
+{
+  "assignment": {
+    "doc-29": "released",
+    "doc-63": "prose-control",
+    "doc-81": "adaptive-exception"
+  },
+  "detection_criterion": "Identify that the weakened pool property permits exceptional lines and cannot bound an adaptively chosen cover line.",
+  "seed": 6102028
+}
